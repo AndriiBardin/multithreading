@@ -1,7 +1,7 @@
 import org.apache.log4j.Logger;
 
 public class CustomThread extends Thread {
-    private static final Logger logger = Logger.getLogger(CustomThread.class);
+    private static final Logger logger = Logger.getLogger(Thread.class);
     private final Counter counter;
 
     public CustomThread(Counter counter) {
